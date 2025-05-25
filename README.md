@@ -59,16 +59,8 @@ Thông tin nhóm thực hiện:
 - Công cụ: Python, OpenCV, MediaPipe, NumPy
 =======
 Thông tin nhóm thực hiện:
-
 - Đề tài: Tạo heatmap vùng hoạt động của các vận động viên cầu lông
 - Học viên: Trương Vũ Hoàng Anh, Bùi Nguyễn Hoài Thương
 - Môn học: Thị giác máy tính
 - Năm học: 2025
 - Công cụ: Python, OpenCV, MediaPipe, NumPy
-"""
-
-readme_path = "/mnt/data/README.md"
-with open(readme_path, "w", encoding="utf-8") as f:
-    f.write(readme_content)
-
-readme_path
