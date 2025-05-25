@@ -27,7 +27,7 @@ Chức năng chính:
    - Trích xuất vị trí gót chân trái và phải.
    - Chuyển gót chân sang tọa độ sân đã được warp.
 
-5. Sinh bản đồ nhiệt:
+5. Tạo bản đồ nhiệt:
    - Dùng Gaussian để làm mờ mỗi vị trí xuất hiện của gót chân.
    - Tích lũy theo thời gian thành heatmap.
    - Phủ màu với cv.COLORMAP_JET và overlay lên sân chuẩn.
