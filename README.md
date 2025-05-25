@@ -30,16 +30,12 @@ Chức năng chính:
    - Áp dụng MediaPipe Pose từ frame thứ 250.
    - Trích xuất vị trí gót chân trái và phải.
    - Chuyển gót chân sang tọa độ sân đã được warp.
-
-<<<<<<< HEAD
-5. Sinh bản đồ nhiệt:
-=======
+     
 5. Tạo bản đồ nhiệt:
->>>>>>> 0c6aacc2b646f1b9f29feb76fb361617330868d8
    - Dùng Gaussian để làm mờ mỗi vị trí xuất hiện của gót chân.
    - Tích lũy theo thời gian thành heatmap.
    - Phủ màu với cv.COLORMAP_JET và overlay lên sân chuẩn.
-
+****
 Yêu cầu:
 
 - Python >= 3.7
@@ -62,13 +58,6 @@ Cách sử dụng:
 - Ảnh bản đồ nhiệt cuối cùng: final_heatmap_true_scale.png
 
 <<<<<<< HEAD
-Ứng dụng thực tiễn:
-
-- Phân tích chiến thuật thi đấu.
-- Đánh giá độ phủ sân và thói quen vận động viên.
-- Hỗ trợ huấn luyện thể thao bằng dữ liệu thị giác.
-- Cơ sở cho hệ thống phân tích video thể thao thông minh.
-
 Thông tin nhóm thực hiện:
 
 - Đề tài: Tạo heatmap vùng hoạt động của các vận động viên cầu lông
