@@ -9,7 +9,7 @@ Dự án này triển khai một hệ thống xử lý video để phát hiện 
 
 =======
 Dự án này triển khai một hệ thống xử lý video để phát hiện sân cầu lông, theo dõi gót chân vận động viên bằng MediaPipe, và xây dựng bản đồ nhiệt (heatmap) thể hiện tần suất di chuyển của người chơi trên sân. 
->>>>>>> 0c6aacc2b646f1b9f29feb76fb361617330868d8
+****
 Chức năng chính:
 
 1. Phát hiện sân cầu lông:
