@@ -59,14 +59,10 @@ Cách sử dụng:
 
 <<<<<<< HEAD
 Thông tin nhóm thực hiện:
-
 - Đề tài: Tạo heatmap vùng hoạt động của các vận động viên cầu lông
 - Lĩnh vực: Xử lý ảnh – Thị giác máy tính
 - Năm học: 2025
 - Công cụ: Python, OpenCV, MediaPipe, NumPy
-
-Giấy phép:
-Mã nguồn này được sử dụng cho mục đích học thuật và nghiên cứu phi thương mại.
 =======
 Thông tin nhóm thực hiện:
 
@@ -75,7 +71,6 @@ Thông tin nhóm thực hiện:
 - Môn học: Thị giác máy tính
 - Năm học: 2025
 - Công cụ: Python, OpenCV, MediaPipe, NumPy
->>>>>>> 0c6aacc2b646f1b9f29feb76fb361617330868d8
 """
 
 readme_path = "/mnt/data/README.md"
