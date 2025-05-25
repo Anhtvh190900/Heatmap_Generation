@@ -40,7 +40,7 @@ Yêu cầu:
 
 Cách sử dụng:
 
-1. Đặt file video vidtest.mp4 vào thư mục chứa mã nguồn.
+1. Đặt file video vidtest.mp4 vào thư mục chứa mã nguồn(https://www.youtube.com/watch?v=s15HhYHCYxc)
 2. Chạy script:
    python badminton_heatmap.py
 3. Quan sát các cửa sổ hiển thị:
