@@ -1,6 +1,7 @@
 # Save the full README content to a file named README.md
 Tên dự án:
 Tạo heatmap vùng hoạt động của các vận động viên cầu lông
+****
 Tổng quan:
 Dự án này triển khai một hệ thống xử lý video để phát hiện sân cầu lông, theo dõi gót chân vận động viên bằng MediaPipe, và xây dựng bản đồ nhiệt (heatmap) thể hiện tần suất di chuyển của người chơi trên sân. Kết quả cho thấy vùng hoạt động ưu tiên, giúp phân tích chiến thuật và thói quen di chuyển của vận động viên.
 Dự án này triển khai một hệ thống xử lý video để phát hiện sân cầu lông, theo dõi gót chân vận động viên bằng MediaPipe, và xây dựng bản đồ nhiệt (heatmap) thể hiện tần suất di chuyển của người chơi trên sân. 
