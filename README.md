@@ -4,8 +4,12 @@ Tên dự án:
 Tạo heatmap vùng hoạt động của các vận động viên cầu lông
 
 Tổng quan:
+<<<<<<< HEAD
 Dự án này triển khai một hệ thống xử lý video để phát hiện sân cầu lông, theo dõi gót chân vận động viên bằng MediaPipe, và xây dựng bản đồ nhiệt (heatmap) thể hiện tần suất di chuyển của người chơi trên sân. Kết quả cho thấy vùng hoạt động ưu tiên, giúp phân tích chiến thuật và thói quen di chuyển của vận động viên.
 
+=======
+Dự án này triển khai một hệ thống xử lý video để phát hiện sân cầu lông, theo dõi gót chân vận động viên bằng MediaPipe, và xây dựng bản đồ nhiệt (heatmap) thể hiện tần suất di chuyển của người chơi trên sân. 
+>>>>>>> 0c6aacc2b646f1b9f29feb76fb361617330868d8
 Chức năng chính:
 
 1. Phát hiện sân cầu lông:
@@ -27,7 +31,11 @@ Chức năng chính:
    - Trích xuất vị trí gót chân trái và phải.
    - Chuyển gót chân sang tọa độ sân đã được warp.
 
+<<<<<<< HEAD
 5. Sinh bản đồ nhiệt:
+=======
+5. Tạo bản đồ nhiệt:
+>>>>>>> 0c6aacc2b646f1b9f29feb76fb361617330868d8
    - Dùng Gaussian để làm mờ mỗi vị trí xuất hiện của gót chân.
    - Tích lũy theo thời gian thành heatmap.
    - Phủ màu với cv.COLORMAP_JET và overlay lên sân chuẩn.
@@ -53,6 +61,7 @@ Cách sử dụng:
 
 - Ảnh bản đồ nhiệt cuối cùng: final_heatmap_true_scale.png
 
+<<<<<<< HEAD
 Ứng dụng thực tiễn:
 
 - Phân tích chiến thuật thi đấu.
@@ -69,6 +78,15 @@ Thông tin nhóm thực hiện:
 
 Giấy phép:
 Mã nguồn này được sử dụng cho mục đích học thuật và nghiên cứu phi thương mại.
+=======
+Thông tin nhóm thực hiện:
+
+- Đề tài: Tạo heatmap vùng hoạt động của các vận động viên cầu lông
+- Học viên: Trương Vũ Hoàng Anh, Bùi Nguyễn Hoài Thương
+- Môn học: Thị giác máy tính
+- Năm học: 2025
+- Công cụ: Python, OpenCV, MediaPipe, NumPy
+>>>>>>> 0c6aacc2b646f1b9f29feb76fb361617330868d8
 """
 
 readme_path = "/mnt/data/README.md"
